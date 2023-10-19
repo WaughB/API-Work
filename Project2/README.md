@@ -16,14 +16,18 @@ then,
 
 `docker run -p 12345:12345 blue_whale`
 
+Here is what a successful build and run may look like:
+[](images/Successful-build-and-run.png)
 
 ## Example of running
 
-There are two methods to testing if the project is running successfully.
+This is the same method used in Project1 to make sure everything was setup correctly. The steps as the same as Project1, except the port number is different this time. 
 
-### Method One - curl
-You can always use `curl` to quickly check if the API is setup correctly. 
+After this you will be able to access the API. For this example I used [Postman](https://www.postman.com/) and sent this information: 
 
+[
+    {"Age": 85, "Sex": "male", "Embarked": "S"},
+    {"Age": 24, "Sex": "female", "Embarked": "C"}
+]
 
-### Method Two - Postman
-This is the method used in Project1 to make sure everything was setup correctly. The steps as the same as project one, except the port number is different this time. 
+This is what it returned to me: [](/images/Postman-working.png)
