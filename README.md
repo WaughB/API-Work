@@ -5,6 +5,7 @@ This repo includes some random code bits that I found helpful during some online
 ## Table of Contents
 * Project 1
 * Project 2
+* Project 3
 * Licensing 
 
 ### Project 1 
@@ -12,6 +13,9 @@ The first project is the one all future iterations will be based off of. There i
 
 ### Project 2
 The second project has the same components as the first project, but has been containerized using Docker. Now this can be run as a service.
+
+### Project 3
+The third project builds off the first two projects, but adds in software testing. Specifically using the PyTest library, several different styles of tests are run on the api.py and model.py files. 
 
 ### Licensing 
 
