@@ -17,7 +17,7 @@ then,
 `docker run -p 12345:12345 blue_whale`
 
 Here is what a successful build and run may look like:
-[](images/Successful-build-and-run.png)
+![](images/Successful-build-and-run.png)
 
 ## Example of running
 
@@ -30,4 +30,6 @@ After this you will be able to access the API. For this example I used [Postman]
     {"Age": 24, "Sex": "female", "Embarked": "C"}
 ]
 
-This is what it returned to me: [](/images/Postman-working.png)
+This is what it returned to me: 
+
+![](images/Postman-working.png)

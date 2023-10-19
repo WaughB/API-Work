@@ -24,4 +24,4 @@ After this you will be able to access the API. For this example I used [Postman]
     {"Age": 24, "Sex": "female", "Embarked": "C"}
 ]
 
-This is what it returned to me: [](/images/Postman-working.png)
+This is what it returned to me: ![](images/Postman-working.png)
