@@ -1,21 +1,23 @@
 # API-Work
-This repo includes some random code bits that I found helpful during some online training.
+This repo includes some random code bits that I found helpful during some online training. This project is inspired by a [DataCamp tutorial](https://www.datacamp.com/tutorial/machine-learning-models-api-python) that I was recently looking at. The heart of the code comes from the tutorial.
 
 
 ## Table of Contents
 * Project 1
+* Project 2
 * Licensing 
 
-
 ### Project 1 
+The first project is the one all future iterations will be based off of. There is a machine learning model based off of the [Titanic dataset](https://www.kaggle.com/competitions/titanic) that is being served via a Flask API. 
 
-
+### Project 2
+The second project has the same components as the first project, but has been containerized using Docker. Now this can be run as a service.
 
 ### Licensing 
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2023] [Brett Waugh]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
