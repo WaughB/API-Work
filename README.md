@@ -3,19 +3,47 @@ This repo includes some random code bits that I found helpful during some online
 
 
 ## Table of Contents
-* Project 1
-* Project 2
-* Project 3
+* Project 1 - ML with exposed API
+* Project 2 - Containerized
+* Project 3 - Software testing
+* Project 4 - Expanded logging
+* Project 5 - Performance metrics
+* Project 6 - Converting Flask to FastAPI
+* Project 7 - Modular code
+* Project 8 - Expand test coverage
+* Project 9 - Kubernetes? Helm?
+* Project 10 - Frontend
 * Licensing 
 
-### Project 1 
+### Project 1 - ML with exposed API
 The first project is the one all future iterations will be based off of. There is a machine learning model based off of the [Titanic dataset](https://www.kaggle.com/competitions/titanic) that is being served via a Flask API. 
 
-### Project 2
+### Project 2 - Containerized
 The second project has the same components as the first project, but has been containerized using Docker. Now this can be run as a service.
 
-### Project 3
+### Project 3 - Software testing
 The third project builds off the first two projects, but adds in software testing. Specifically using the PyTest library, several different styles of tests are run on the api.py and model.py files. 
+
+### Project 4 - Expanded logging
+The fourth project expands logging capability. This will be paramount to gauge how much the changes effect performance. 
+
+### Project 5 - Performance metrics
+The fifth project starts to identify key performance indicators (KPIs) for the project. An automated report is generated so that future changes can be weighed against something. 
+
+### Project 6 - Converting Flask to FastAPI
+The sixth project converts the Flask component to FastAPI. The benefits of FastAPI have been well-documented, but I want to see how it compares given our new KPIs. 
+
+### Project 7 - Modular code
+The seventh project refactors the code to be more modular. This needed to be done to increase reusability of code. 
+
+### Project 8 - Expand test coverage
+The eighth project expands the testing coverage. It has been a while since new software testing was addeded to the project and a lot of code has been added since then. 
+
+### Project 9 - Kubernetes? Helm?
+The ninth project adds Kubernetes? Helm? support. This is due to the size of the project. As files continue to get added, it is getting more tedious to track everything. 
+
+### Project 10 - Frontend
+The tenth project finally adds in a frontend. Yay! 
 
 ### Licensing 
 
