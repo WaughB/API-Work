@@ -68,6 +68,6 @@ except:
 try:
     model_columns = list(x.columns)
     joblib.dump(model_columns, "model_columns.pkl")
-    print("Models columns dumped!")
+    logger.info("Models columns dumped!")
 except:
     logger.error("Error while saving model columns.")
