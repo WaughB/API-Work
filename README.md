@@ -1,3 +1,8 @@
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=bugs)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=WaughB_API-Work&metric=coverage)](https://sonarcloud.io/summary/new_code?id=WaughB_API-Work) 
+
+[![codecov](https://codecov.io/gh/WaughB/API-Work/graph/badge.svg?token=231EP0T7IO)](https://codecov.io/gh/WaughB/API-Work)
+
+
 # API-Work
 This repo includes some random code bits that I found helpful during some online training. This project is inspired by a [DataCamp tutorial](https://www.datacamp.com/tutorial/machine-learning-models-api-python) that I was recently looking at. The heart of the code comes from the tutorial.
 
