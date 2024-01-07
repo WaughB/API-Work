@@ -1,6 +1,6 @@
 # Project 3
 
-## Project descriptioin
+## Project description
 This is an iteration of the first and second project. The key difference being that this version has software testing with it. The same backend applies from the first project. And the same containerization applies from the second project. 
 
 ## How to run the container
