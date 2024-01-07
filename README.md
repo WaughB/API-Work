@@ -3,6 +3,8 @@ This repo includes some random code bits that I found helpful during some online
 
 
 ## Table of Contents
+* How to run
+* Example of running
 * Project 1 - ML with exposed API
 * Project 2 - Containerized
 * Project 3 - Software testing
@@ -14,6 +16,33 @@ This repo includes some random code bits that I found helpful during some online
 * Project 9 - Kubernetes? Helm?
 * Project 10 - Frontend
 * Licensing 
+
+## How to run
+To get this project to run, execute these commands:
+
+`docker build -t blue_whale .`
+
+then, 
+
+`docker run -p 12345:12345 blue_whale`
+
+Here is what a successful build and run may look like:
+![](images/Successful-build-and-run.png)
+
+## Example of running
+
+This is the same method used in Project1 to make sure everything was setup correctly. The steps as the same as Project1, except the port number is different this time. 
+
+After this you will be able to access the API. For this example I used [Postman](https://www.postman.com/) and sent this information: 
+
+[
+    {"Age": 85, "Sex": "male", "Embarked": "S"},
+    {"Age": 24, "Sex": "female", "Embarked": "C"}
+]
+
+This is what it returned to me: 
+
+![](images/Postman-working.png)
 
 ### Project 1 - ML with exposed API
 The first project is the one all future iterations will be based off of. There is a machine learning model based off of the [Titanic dataset](https://www.kaggle.com/competitions/titanic) that is being served via a Flask API. 
