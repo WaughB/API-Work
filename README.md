@@ -25,14 +25,7 @@ This repo includes some random code bits that I found helpful during some online
 ## How to run
 To get this project to run, execute these commands:
 
-`docker build -t blue_whale .`
-
-then, 
-
-`docker run -p 12345:12345 blue_whale`
-
-Here is what a successful build and run may look like:
-![](images/Successful-build-and-run.png)
+`py main.py`
 
 ## Example of running
 
