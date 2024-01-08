@@ -1,6 +1,5 @@
-# api.py
-
 from flask import Flask, request, jsonify
+from flask_wtf.csrf import CSRFProtect
 import traceback
 import pandas as pd
 from model import lr, model_columns
@@ -8,9 +7,12 @@ from logger import log_this
 import logging
 
 app = Flask(__name__)
+app.config["SECRET_KEY"] = "YourSecretKey"  # Set a secret key for CSRF protection
+csrf = CSRFProtect(app)  # Initialize CSRF protection
 
 
 @app.route("/predict", methods=["POST"])
+@csrf.exempt  # Exempt this route from CSRF protection if not needed
 def predict():
     logger = log_this(__name__, level=logging.DEBUG)
     logger.info("Program started.")
