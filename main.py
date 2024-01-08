@@ -5,11 +5,9 @@ from api import app
 import sys
 from logger import log_this
 import logging
-from api import app
 
-if __name__ == "__main__":
-    # Initialize the logger. If no log file is specified, logs will just save to .
-    # Other logging levels are logging.DEBUG, logging.WARNING, logging.ERROR, logging.CRITICAL.
+
+def main():
     logger = log_this(__name__, level=logging.DEBUG)
     logger.info("Program started.")
 
@@ -50,3 +48,7 @@ if __name__ == "__main__":
         exit()
 
     app.run(port=port, debug=True)
+
+
+if __name__ == "__main__":
+    main()
